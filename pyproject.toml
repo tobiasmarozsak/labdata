@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labdata"
+description = "Tools for loading, analysing, and plotting laboratory data"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+dynamic = ["version"]
+dependencies = [
+    "numpy",
+    "joblib",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "h5py",
+    "lmfit",
+    "uncertainties",
+    "PyQt6",
+    "pyqtgraph",
+    "watchdog",
+    "colorlog",
+    "colorcet",
+    "cmasher",
+    "tqdm",
+    "wrapt",
+    "pyperclip",
+    "pywin32; sys_platform == 'win32'",
+    "Cython",
+    "ipykernel",
+    "ipywidgets",
+    "jinja2",
+    "nbformat",
+    "nbstripout",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"labdata.resources" = ["*.css", "*.qss", "*.mplstyle"]
+
+[tool.setuptools_scm]
+fallback_version = "0.1.0"

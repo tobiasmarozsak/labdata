@@ -1,0 +1,123 @@
+QMainWindow {
+    background-color: white;
+}
+
+QSplitter::handle:horizontal {
+    background-color: #d2d2d2;
+}
+
+QWidget#controlsPanel {
+    background-color: white;
+    color: black;
+}
+
+QWidget#controlsPanel QLabel,
+QWidget#controlsPanel QCheckBox {
+    color: black;
+}
+
+QWidget#controlsPanel QFrame#dataInfoPanel,
+QWidget#controlsPanel QFrame#imageInfoPanel {
+    border: 1px solid #d2d2d2;
+}
+
+QWidget#controlsPanel QLineEdit {
+    min-height: 26px;
+    padding: 3px 9px;
+    color: #202124;
+    background-color: #ffffff;
+    border: 1px solid #b8bcc2;
+    border-radius: 6px;
+    selection-color: white;
+    selection-background-color: #3478c8;
+}
+
+QWidget#controlsPanel QLineEdit:focus {
+    border: 2px solid #3478c8;
+    padding: 2px 8px;
+}
+
+QWidget#controlsPanel QLineEdit:hover {
+    border-color: #858b93;
+}
+
+QWidget#controlsPanel QComboBox QAbstractItemView {
+    color: #202124;
+    background-color: white;
+    border: 1px solid #b8bcc2;
+    border-radius: 5px;
+    padding: 3px;
+    selection-color: white;
+    selection-background-color: #3478c8;
+    outline: 0;
+}
+
+QWidget#controlsPanel QComboBox QAbstractItemView::item {
+    min-height: 25px;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+
+QWidget#controlsPanel QComboBox QAbstractItemView::item:selected {
+    color: white;
+    background-color: #3478c8;
+}
+
+QWidget#controlsPanel QPushButton {
+    min-height: 30px;
+    padding: 5px 14px;
+    color: #202124;
+    background-color: #f3f4f6;
+    border: 1px solid #b8bcc2;
+    border-radius: 7px;
+}
+
+QWidget#controlsPanel QPushButton:hover {
+    background-color: #e8eaed;
+    border-color: #858b93;
+}
+
+QWidget#controlsPanel QPushButton:pressed {
+    background-color: #daddE2;
+}
+
+QWidget#controlsPanel QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #8f949b;
+    border-radius: 4px;
+}
+
+QWidget#controlsPanel QCheckBox::indicator:hover {
+    border-color: #3478c8;
+}
+
+QWidget#controlsPanel QCheckBox::indicator:checked {
+    background-color: #3478c8;
+    border-color: #3478c8;
+}
+
+QWidget#controlsPanel QTableView {
+    background-color: white;
+    alternate-background-color: #f7f8fa;
+    color: #202124;
+    gridline-color: #e1e4e8;
+    border: 1px solid #c8ccd2;
+    selection-color: #202124;
+    selection-background-color: #d9eaff;
+}
+
+QWidget#controlsPanel QTableView::item {
+    padding: 4px 6px;
+}
+
+QWidget#controlsPanel QHeaderView::section {
+    padding: 5px 7px;
+    background-color: #f1f3f4;
+    color: #3c4043;
+    font-weight: 600;
+    border: 0;
+    border-right: 1px solid #d5d8dc;
+    border-bottom: 1px solid #c8ccd2;
+}

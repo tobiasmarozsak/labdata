@@ -1,0 +1,82 @@
+p {
+    line-height: 0.5;
+}
+
+input[type="time"] {
+    background-color: #252526 !important;
+    color: #A9B7C6 !important;
+    border-color: #A9B7C6 !important;
+    border-style: solid !important;
+    border-width: 1.5px !important;
+    min-height: 26px !important;
+    min-width: 97px !important;
+}
+
+input[type="time"]:focus {
+    border-color: #CC5C29 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+select {
+    background-color: #252526 !important;
+    color: #A9B7C6 !important;
+}
+
+select:focus {
+    border-color: #CC5C29 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+select option:hover {
+    background-color: #CC5C29 !important;
+    color: white !important;
+}
+
+select option:checked {
+    background-color: #CC5C29 !important;
+    color: white !important;
+    box-shadow: 0 0 10px 100px #CC5C29 inset;
+}
+
+.cell-output-ipywidget-background {
+    background-color: transparent !important;
+}
+
+.jp-OutputArea-output {
+    background-color: transparent;
+}
+
+.jupyter-widgets input[type="text"] {
+    background-color: #252526 !important;
+    color: #A9B7C6 !important;
+    border-color: #A9B7C6 !important;
+}
+
+.jupyter-widgets input[type="text"]:focus {
+    border-color: #CC5C29 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.jupyter-widgets label,
+.widget-label {
+    color: #A9B7C6 !important;
+}
+
+.jupyter-widgets button {
+    background-color: #252526 !important;
+    border-style: solid !important;
+    border-width: 1.5px !important;
+    border-color: #A9B7C6 !important;
+    color: #A9B7C6 !important;
+    font-weight: bold !important;
+    width: 100px !important;
+}
+
+.jupyter-widgets button:focus {
+    border-color: #CC5C29 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}

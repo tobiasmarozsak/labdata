@@ -1,0 +1,54 @@
+text.color: black
+
+figure.dpi: 100
+figure.figsize: 6,4
+figure.facecolor: white
+
+savefig.transparent: False
+savefig.dpi: 200
+savefig.bbox: tight
+savefig.pad_inches: 0.1
+
+axes.facecolor: white
+axes.edgecolor: black
+axes.labelcolor: black
+axes.titlecolor: black
+axes.prop_cycle: cycler("color", ["#663373","#2ca02c","#d62728","#1f77b4","#8c564b","#ff7f0e","#e377c2","#7f7f7f","#bcbd22","#17becf","#663373","#2ca02c","#d62728","#1f77b4","#8c564b","#ff7f0e","#e377c2","#7f7f7f","#bcbd22","#17becf"]) + cycler("marker", ["o","o","o","o","o","o","o","o","o","o","s","s","s","s","s","s","s","s","s","s"])
+axes.labelsize: 11
+axes.labelpad: 10
+axes.titlesize: 12
+axes.titlepad: 10
+
+xtick.color: black
+ytick.color: black
+xtick.labelcolor: black
+ytick.labelcolor: black
+xtick.labelsize: 10
+ytick.labelsize: 10
+xtick.direction: in
+ytick.direction: in
+
+grid.alpha: 0.5
+date.autoformatter.minute: %H:%M
+
+patch.edgecolor: black
+patch.force_edgecolor: True
+
+lines.linewidth: 1.5
+lines.linestyle: none
+lines.dash_joinstyle: round
+lines.dash_capstyle: round
+lines.solid_joinstyle: round
+lines.solid_capstyle: round
+lines.color: black
+lines.markerfacecolor: auto
+lines.markeredgecolor: black
+lines.markeredgewidth: 1
+lines.markersize: 7
+
+scatter.marker: o
+scatter.edgecolors: black
+
+legend.frameon: True
+legend.framealpha: 0.5
+legend.edgecolor: black

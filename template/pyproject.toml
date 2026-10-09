@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labdata-template"
+version = "0.1.0"
+description = "Reference template for a separately packaged labdata extension"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["labdata"]
+
+[project.entry-points."labdata.lab"]
+lab = "template"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"template.resources" = ["*"]

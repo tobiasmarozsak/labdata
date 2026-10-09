@@ -1,0 +1,53 @@
+text.color: white
+
+figure.dpi: 100
+figure.figsize: 6,4
+figure.facecolor: black
+
+savefig.transparent: False
+savefig.dpi: 200
+savefig.bbox: tight
+savefig.pad_inches: 0.1
+
+axes.facecolor: black
+axes.edgecolor: gray
+axes.labelcolor: white
+axes.titlecolor: white
+axes.prop_cycle: cycler('color', ['663373', '2ca02c', 'd62728', '1f77b4', '8c564b', 'ff7f0e', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+axes.labelsize: 11
+axes.labelpad: 10
+axes.titlesize: 12
+axes.titlepad: 10
+
+xtick.color: white
+ytick.color: white
+xtick.labelcolor: white
+ytick.labelcolor: white
+xtick.labelsize: 10
+ytick.labelsize: 10
+xtick.direction: in
+ytick.direction: in
+
+grid.alpha: 0.5
+date.autoformatter.minute: %H:%M
+
+patch.edgecolor: lightgray
+patch.force_edgecolor: True
+
+lines.linestyle: none
+lines.dash_joinstyle: round
+lines.dash_capstyle: round
+lines.solid_joinstyle: round
+lines.solid_capstyle: round
+lines.marker: o
+lines.color: white
+lines.markeredgecolor: lightgray
+lines.markeredgewidth: 1
+lines.markersize: 7
+
+scatter.marker: o
+scatter.edgecolors: gray
+
+legend.frameon: True
+legend.framealpha: 0.5
+legend.edgecolor: white
